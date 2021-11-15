@@ -1,7 +1,4 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
-import 'package:mapsapp/Todos.dart';
 
 class Home extends StatefulWidget {
   Home({Key? key}) : super(key: key);
@@ -11,7 +8,6 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
- 
   @override
   void initState() {
     super.initState();
@@ -25,10 +21,7 @@ class _HomeState extends State<Home> {
         backgroundColor: Colors.redAccent,
         centerTitle: true,
       ),
-      body: Center(
-        child:Text("data")
-      ),
+      body: Center(child: Text("data")),
     );
   }
-
 }
